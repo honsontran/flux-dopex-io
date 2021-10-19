@@ -1,0 +1,32 @@
+{
+  "learnMore": "Daha fazla bilgi edin",
+  "documentation": "Belgeler",
+  "github": "GitHub",
+  "tokenomics": "Jeton Ekonomisi",
+  "launchApp": "Uygulamayı Başlat",
+  "copyright": "© 2021 Dopex",
+  "community": "Topluluk",
+  "discord": "Discord",
+  "twitter": "Twitter",
+  "blog": "Blog",
+  "developers": "Geliştiriciler",
+  "home": "Ev",
+  "sale": "Satılık",
+  "tokenSaleLiveBanner": {
+    "title": "Dopex Token Satışı Başladı!",
+    "paragraph": "Katılmak için şimdi sayfayı ziyaret edin 🚀"
+  },
+  "farmsLiveBanner": {
+    "title": "Farms artık Arbitrum'da yayında, DPX ve rDPX'inizi riske atın!",
+    "paragraph": "Katılmak için şimdi sayfayı ziyaret edin 🚀"
+  },
+  "testnetLiveBanner": {
+    "title": "Public Testnet şimdi Arbitrum Rinkeby'de yayında!",
+    "paragraph": "Katılmak için şimdi sayfayı ziyaret edin 🚀"
+  },
+  "ssovTestnetLiveBanner": {
+    "title": "SSOV Testnet şimdi Kovan'da yayında!",
+    "paragraph": "Katılmak için şimdi sayfayı ziyaret edin 🚀"
+  },
+  "go": "Git"
+}

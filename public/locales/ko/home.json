@@ -1,0 +1,75 @@
+{
+  "siteDescription": "Dopex는 최대 유동성 및 최소 노출 옵션 프로토콜입니다.",
+  "siteTitle": "탈 중앙화 옵션 거래소 | Dopex",
+  "benefits": {
+    "0": {
+      "name": "테일 리스크 상쇄",
+      "subHeader": "옵션 작성자",
+      "paragraph": "발생한 손실에 대해 rDPX 리베이트를받습니다. rDPX를 사용하여 합성 자산 생성."
+    },
+    "1": {
+      "name": "더 많은 유동성",
+      "subHeader": "상인",
+      "paragraph": "자산 풀은 옵션 체인에서 온 디맨드 옵션 작성을위한 소스 유동성을 돕습니다."
+    },
+    "2": {
+      "name": "걱정 덜",
+      "subHeader": "유동성 공급자",
+      "paragraph": "유동성을 제공하면서 DPX를 획득하여 노출을 최소화하십시오."
+    }
+  },
+  "body": {
+    "subHeader": "다른 건축",
+    "header": "Defi First & 강력한 옵션",
+    "paragraph": "우리는 기존 옵션 시장에 비해 크게 개선 된 프로토콜을 구축했습니다.",
+    "grid": {
+      "0": {
+        "heading": "가격 효율성",
+        "paragraph": "즉시 차익 거래 기회가있는 할인 된 옵션."
+      },
+      "1": {
+        "heading": "더 깊은 유동성",
+        "paragraph": "행사 가격으로 옵션을 구매하고 교환하십시오."
+      },
+      "2": {
+        "heading": "위험 최소화",
+        "paragraph": "rDPX 리베이트를 통해 유동성 공급자로서 위험을 상쇄하고 손실을 최소화하십시오."
+      },
+      "3": {
+        "heading": "일정한 수율",
+        "paragraph": "옵션 풀에 유동성을 제공 할 때 지속적으로 보상으로 DPX를 획득하십시오."
+      },
+      "4": {
+        "heading": "완전 담보",
+        "paragraph": "모든 옵션에는이를 뒷받침 할 담보가 있으므로 제 3 자 불이행의 위험이 없습니다."
+      },
+      "5": {
+        "heading": "rDPX와 신디사이저",
+        "paragraph": "rDPX를 담보로 사용하는 주식 및 지수와 같은 합성 자산을 민트합니다."
+      }
+    },
+    "protocolUsage": {
+      "header": "프로토콜 사용",
+      "uniswap": "Dopex는 Uniswap에서 만료 후 자산을 준비하여 다음 만료를 위해 롤오버합니다.",
+      "uma": "인덱스, 주식과 같은 합성 자산은 UMA의 담보로 rDPX와 함께 발행됩니다.",
+      "chainlink": "Chainlink 오라클은 Dopex에 가격 및 변동성 데이터를 제공합니다."
+    },
+    "audits": {
+      "header": "및 감사"
+    }
+  },
+  "investorsAndPartners": "투자자 및 파트너",
+  "tokenModel": {
+    "subHeader": "시너지",
+    "header": "이중 토큰 모델",
+    "paragraph": "Dopex는 두 개의 개별 토큰을 사용하여 시너지 피드백 루프에서 새로운 생태계 역학을 조정합니다.",
+    "dpx": {
+      "description": "DPX는 제한된 공급 거버넌스 토큰입니다.",
+      "paragraph": "풀, 금고 및 래퍼에서 수수료와 수익이 발생합니다."
+    },
+    "rdpx": {
+      "description": "rDPX는 옵션 작성자를위한 리베이트 토큰입니다.",
+      "paragraph": "지수, 주식 등과 같은 합성 자산을 발행하는 데 사용할 수 있습니다."
+    }
+  }
+}

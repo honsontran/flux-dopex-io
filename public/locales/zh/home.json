@@ -1,0 +1,75 @@
+{
+  "siteDescription": "Dopex 是一种最大的流动性和最小的风险选择协议",
+  "siteTitle": "分散期权交换 | Dopex",
+  "benefits": {
+    "0": {
+      "name": "抵消尾部风险",
+      "subHeader": "选项编写器",
+      "paragraph": "收到 rDPX 返利的损失。使用 rDPX 铸造合成资产."
+    },
+    "1": {
+      "name": "更多流动性",
+      "subHeader": "交易 员",
+      "paragraph": "资产池有助于在期权链上为按需期权书写提供流动性"
+    },
+    "2": {
+      "name": "少担心",
+      "subHeader": "流动性提供商",
+      "paragraph": "通过在提供流动性的同时赚取 DPX 来最大限度地减少风险."
+    }
+  },
+  "body": {
+    "subHeader": "构建不同",
+    "header": "DeFi 第一个和强大的选项",
+    "paragraph": "我们构建了一个协议，对现有期权市场有了巨大的改进。",
+    "grid": {
+      "0": {
+        "heading": "价格效率",
+        "paragraph": "具有即时套利机会的贴现选项."
+      },
+      "1": {
+        "heading": "更深的流动性",
+        "paragraph": "以任何罢工价格购买和交换期权."
+      },
+      "2": {
+        "heading": "最小化风险",
+        "paragraph": "作为具有 RDPX 回扣的流动性提供商，抵消风险并尽量减少损失."
+      },
+      "3": {
+        "heading": "恒定收益率",
+        "paragraph": "向期权池提供流动性时，不断赚取 DPX 作为奖励."
+      },
+      "4": {
+        "heading": "完全抵押",
+        "paragraph": "所有选项都有抵押品来支持它们，从而消除了第三方违约的风险."
+      },
+      "5": {
+        "heading": "带 RDPX 的合成器",
+        "paragraph": "以RDPX为抵押品的薄荷合成资产，如股票和指数."
+      }
+    },
+    "protocolUsage": {
+      "header": "协议使用",
+      "uniswap": "Dopex 准备资产在 Uniswap 到期后转机以备下一次到期之用.",
+      "uma": "综合资产，如指数，股票铸造与rdPX作为抵押UMA。",
+      "chainlink": "Chainlink 链链接预言家为 Dopex 提供定价和波动性数据。."
+    },
+    "audits": {
+      "header": "和审计"
+    }
+  },
+  "investorsAndPartners": "投资者和合作伙伴",
+  "tokenModel": {
+    "subHeader": "协同",
+    "header": "双令牌模型",
+    "paragraph": "Dopex 使用两个单独的令牌在协同反馈循环中协调新的生态系统动态。",
+    "dpx": {
+      "description": "DPX 是有限的供应治理令牌。",
+      "paragraph": "它从游泳池、保险库和包装中累积费用和收入。"
+    },
+    "rdpx": {
+      "description": "rDPX是期权编写器的返利令牌。",
+      "paragraph": "它可用于铸造合成资产，如指数、股票等。"
+    }
+  }
+}

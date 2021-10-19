@@ -1,0 +1,32 @@
+{
+  "learnMore": "더 알아보기",
+  "documentation": "선적 서류 비치",
+  "github": "GitHub",
+  "tokenomics": "Tokenomics",
+  "launchApp": "앱 시작",
+  "copyright": "© 2021 Dopex",
+  "community": "커뮤니티",
+  "discord": "협화하지 않다",
+  "twitter": "트위터",
+  "blog": "블로그",
+  "developers": "개발자",
+  "home": "홈",
+  "sale": "판매",
+  "tokenSaleLiveBanner": {
+    "title": "Dopex 토큰 판매가 시작되었습니다!",
+    "paragraph": "참여하려면 지금 페이지를 방문하십시오 🚀"
+  },
+  "farmsLiveBanner": {
+    "title": "농장은 이제 Arbitrum에서 운영됩니다. DPX 및 rDPX를 스테이킹하세요!",
+    "paragraph": "지금 바로 페이지를 방문하여 참여하세요 🚀"
+  },
+  "testnetLiveBanner": {
+    "title": "공개 테스트넷이 이제 Arbitrum Rinkeby에서 생중계됩니다!",
+    "paragraph": "참가하려면 지금 페이지를 방문하세요 🚀"
+  },
+  "ssovTestnetLiveBanner": {
+    "title": "SSOV 테스트넷이 이제 Kovan에서 실행됩니다!",
+    "paragraph": "참가하려면 지금 페이지를 방문하세요 🚀"
+  },
+  "go": "가다"
+}

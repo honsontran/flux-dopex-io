@@ -1,0 +1,75 @@
+{
+  "siteDescription": "Dopex is a maximum liquidity and minimal exposure options protocol",
+  "siteTitle": "Decentralized Options Exchange | Dopex",
+  "benefits": {
+    "0": {
+      "name": "Offset Tail Risk",
+      "subHeader": "Option Writers",
+      "paragraph": "Receive rDPX rebates on losses incurred. Use rDPX to mint synthetic assets."
+    },
+    "1": {
+      "name": "More Liquidity",
+      "subHeader": "Traders",
+      "paragraph": "Asset pools helps source liquidity for on-demand option writing across option chains"
+    },
+    "2": {
+      "name": "Worry Less",
+      "subHeader": "Liquidity Providers",
+      "paragraph": "Minimize Exposure by earning DPX while providing liquidity."
+    }
+  },
+  "body": {
+    "subHeader": "Built Different",
+    "header": "Defi First & Powerful Options",
+    "paragraph": "We built a protocol with vast improvements over the existing options market.",
+    "grid": {
+      "0": {
+        "heading": "Price Efficiency",
+        "paragraph": "Discounted options with instant arbitrage opportunities."
+      },
+      "1": {
+        "heading": "Deeper Liquidity",
+        "paragraph": "Purchase and swap options with any strike price."
+      },
+      "2": {
+        "heading": "Minimize Risk",
+        "paragraph": "Offset risk and minimize losses as a liquidity provider with rDPX rebates."
+      },
+      "3": {
+        "heading": "Constant Yield",
+        "paragraph": "Earn DPX as rewards constantly when providing liquidity to Option Pools."
+      },
+      "4": {
+        "heading": "Fully Collateralized",
+        "paragraph": "All options have the collateral to back them, removing risk of third party defaults."
+      },
+      "5": {
+        "heading": "Synths with rDPX",
+        "paragraph": "Mint synthetic assets like stocks and indices using rDPX as collateral."
+      }
+    },
+    "protocolUsage": {
+      "header": "Protocol Usage",
+      "uniswap": "Dopex prepares assets post expiry from Uniswap to roll-over for next expiry.",
+      "uma": "Synthetic assets like indices, stocks are minted with rDPX as collateral on UMA.",
+      "chainlink": "Chainlink oracles provide Dopex with pricing and volatility data."
+    },
+    "audits": {
+      "header": "And Audits"
+    }
+  },
+  "investorsAndPartners": "Investors & Partners",
+  "tokenModel": {
+    "subHeader": "Synergy",
+    "header": "Dual Token Model",
+    "paragraph": "Dopex utilizes two seperate tokens to coordinate new ecosystem dynamics in a synergistic feedback loop.",
+    "dpx": {
+      "description": "DPX is the limited supply governance token.",
+      "paragraph": "It accrues fees and revenue from pools, vaults and wrappers."
+    },
+    "rdpx": {
+      "description": "rDPX is the rebate token for options writers.",
+      "paragraph": "It can be used to mint synthetic assets such as indices, stocks etc."
+    }
+  }
+}

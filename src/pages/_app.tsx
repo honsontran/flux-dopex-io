@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { ThemeProvider, StylesProvider } from '@material-ui/core/styles';
 import { appWithTranslation } from 'next-i18next';
 import type { AppProps } from 'next/app';
+import Script from 'next/script';
 
 import theme from '../style/muiTheme';
 
@@ -34,19 +35,20 @@ function App({ Component, pageProps }: AppProps) {
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-J3DKSV3EXD"
-        />
-        <script>
-          {` window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'G-J3DKSV3EXD');`}
-        </script>
       </Head>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-J3DKSV3EXD"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-J3DKSV3EXD');
+        `}
+      </Script>
       <StylesProvider injectFirst>
         <ThemeProvider theme={theme}>
           <Component {...pageProps} />

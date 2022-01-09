@@ -1,4 +1,5 @@
 import { useState, useCallback, useEffect } from 'react';
+import Link from 'next/link';
 import cx from 'classnames';
 import Button from '@material-ui/core/Button';
 import Box from '@material-ui/core/Box';
@@ -40,7 +41,7 @@ export default function Navbar(props: NavbarProps) {
 
   useEffect(() => {
     updateTheme(localStorage.theme || theme);
-  }, []);
+  }, [updateTheme, theme]);
 
   const handleClick = useCallback(
     (event) => setAnchorEl(event.currentTarget),
@@ -52,12 +53,12 @@ export default function Navbar(props: NavbarProps) {
   const handleLight = useCallback(() => {
     updateTheme('light');
     localStorage.theme = 'light';
-  }, []);
+  }, [updateTheme]);
 
   const handleDark = useCallback(() => {
     updateTheme('dark');
     localStorage.theme = 'dark';
-  }, []);
+  }, [updateTheme]);
 
   const links = [
     { name: t('home'), to: '/' },
@@ -88,15 +89,14 @@ export default function Navbar(props: NavbarProps) {
       )}
     >
       <Box className="max-w-md mx-auto w-full flex flex-row items-center p-5 relative 2xl:max-w-6xl xl:max-w-6xl lg:max-w-4xl sm:max-w-xl sm:p-6">
-        <a
-          className="flex items-center text-white flex-grow cursor-pointer hover:no-underline"
-          href="/"
-        >
-          <img src="/svg/logo.svg" alt="logo" className="w-9" />
-          <span className="ml-5 text-xl font-extrabold text-black dark:text-white font-mono">
-            DOPEX
-          </span>
-        </a>
+        <Link href="/">
+          <a className="flex items-center text-white flex-grow cursor-pointer hover:no-underline">
+            <img src="/svg/logo.svg" alt="logo" className="w-9" />
+            <span className="ml-5 text-xl font-extrabold text-black dark:text-white font-mono">
+              DOPEX
+            </span>
+          </a>
+        </Link>
         <Box className="flex flex-row visible items-center absolute right-10 lg:invisible">
           {theme === 'dark' ? (
             <Moon onClick={handleLight} className="cursor-pointer mr-3" />

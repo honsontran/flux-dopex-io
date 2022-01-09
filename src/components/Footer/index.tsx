@@ -28,6 +28,7 @@ const FooterLink: FC<{
       {imgSrc ? (
         <img
           src={imgSrc}
+          alt={name}
           className="h-5 w-5 dark:invert dark:brightness-0 filter"
         />
       ) : null}

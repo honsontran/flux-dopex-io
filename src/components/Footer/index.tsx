@@ -24,6 +24,7 @@ const FooterLink: FC<{
   imgSrc?: string;
 }> = (props) => {
   const { name, children, Icon, imgSrc, href, target, rel } = props;
+  const anchorProps = { href, target, rel };
   return (
     <li className="mb-2 flex items-center space-x-2">
       {Icon ? <Icon className="dark:text-white text-black w-5 h-5" /> : null}
@@ -33,14 +34,7 @@ const FooterLink: FC<{
           className="h-5 w-5 dark:invert dark:brightness-0 filter"
         />
       ) : null}
-      <Typography
-        variant="p"
-        component="a"
-        href={href}
-        target={target}
-        rel={rel}
-        {...props}
-      >
+      <Typography variant="p" component="a" {...anchorProps}>
         {name ? name : children}
       </Typography>
     </li>

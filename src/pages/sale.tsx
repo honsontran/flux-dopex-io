@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 
 import Navbar from 'components/Navbar';
 import Footer from 'components/Footer';
-import SSOVTestnetLiveBanner from 'components/Banners/SSOVTestnetLiveBanner';
+import SSOVLiveBanner from 'components/Banners/SSOVLiveBanner';
 import Introduction from 'components/sale/Introduction';
 import Body from 'components/sale/Body';
 import Features from 'components/sale/Features';
@@ -23,7 +23,7 @@ export default function Sale() {
       </Head>
       <Box className="overflow-x-hidden bg-white-dark dark:bg-black text-white">
         <Navbar active="Sale" />
-        <SSOVTestnetLiveBanner />
+        <SSOVLiveBanner />
         <Introduction />
         <Body />
         <Features />

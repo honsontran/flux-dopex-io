@@ -10,7 +10,7 @@ import Body from 'components/home/Body';
 import Investors from 'components/home/Investors';
 import TokenModel from 'components/home/TokenModel';
 import Footer from 'components/Footer';
-import FarmsLiveBanner from 'components/Banners/FarmsLiveBanner';
+import SSOVLiveBanner from 'components/Banners/SSOVLiveBanner';
 
 export default function Home() {
   const { t } = useTranslation('home');
@@ -23,7 +23,7 @@ export default function Home() {
       </Head>
       <Box className="overflow-x-hidden bg-white-dark dark:bg-black text-white">
         <Navbar active="Home" />
-        <FarmsLiveBanner />
+        <SSOVLiveBanner />
         <Introduction />
         <Benefits />
         <Body />

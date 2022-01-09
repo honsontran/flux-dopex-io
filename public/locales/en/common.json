@@ -29,5 +29,9 @@
     "title": "SSOV Testnet is now live on Kovan!",
     "paragraph": "Visit the page now to participate 🚀"
   },
+  "ssovLiveBanner": {
+    "title": "Single Staking Option Vaults are now live on the app!",
+    "paragraph": "Visit the page now to participate 🚀"
+  },
   "go": "Go"
 }

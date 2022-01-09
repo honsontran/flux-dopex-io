@@ -12,9 +12,6 @@ import {
 import Section from 'components/UI/Section';
 import Typography from 'components/UI/Typography';
 
-import Logo from 'assets/logo/logo.svg';
-import DefiPulse from 'assets/home/svg/defi_pulse.svg';
-
 const FooterLink: FC<{
   href: string;
   rel: string;
@@ -49,8 +46,8 @@ const Footer = () => {
       <Box className="flex flex-col m-auto sm:flex-row">
         <div className="flex flex-col mb-6 sm:mr-20">
           <img
-            src={Logo}
-            alt="DPXLogo"
+            src="/svg/logo.svg"
+            alt="logo"
             className="w-10 h-10 my-2 mr-7 sm:mb-4"
           />
           <Typography variant="p" className="copyright">
@@ -81,7 +78,7 @@ const Footer = () => {
                 href="https://defipulse.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                imgSrc={DefiPulse}
+                imgSrc="/svg/defi_pulse.svg"
               >
                 DefiPulse
               </FooterLink>

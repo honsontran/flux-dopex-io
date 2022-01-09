@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./src/**/*.{js,ts,jsx,tsx}'],
+  content: ['./src/**/*.{js,jsx,ts,tsx}', './index.html'],
   darkMode: 'class',
   theme: {
     fontFamily: {
@@ -23,15 +23,11 @@ module.exports = {
       margin: {
         1.75: '0.41rem',
       },
+      spacing: {
+        84: '21rem',
+      },
     },
   },
-  variants: {
-    extend: {
-      display: ['dark'],
-      invert: ['dark'],
-      brightness: ['dark'],
-      filter: ['dark'],
-    },
-  },
+
   plugins: [],
 };

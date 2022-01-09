@@ -4,69 +4,59 @@ import { useTranslation } from 'react-i18next';
 
 import Section from 'components/UI/Section';
 import Typography from 'components/UI/Typography';
-import LedgerPrime from 'assets/home/png/ledger_prime.png';
-import OrcaTraders from 'assets/home/png/orca_traders.png';
-import Orthogonal from 'assets/home/png/orthogonal_trading.png';
-import Tetranode from 'assets/home/png/tetranode.png';
-import DefiGod from 'assets/home/png/defi_god.png';
-import Pattern from 'assets/home/png/pattern.png';
-import Dcv from 'assets/home/png/dcv.png';
-import SccInvestments from 'assets/home/svg/scc_investments.svg';
-import Debase from 'assets/home/svg/debase.svg';
-import HardwoodOrcz from 'assets/home/svg/hardwood_orcz.svg';
 
 const INVESTORS_DATA = [
   {
     name: 'TΞtranodΞ',
     alt: 'Tetranode',
-    src: Tetranode,
+    src: '/png/tetranode.png',
     imgClasses: 'rounded-full h-16 lg:h-24',
   },
   {
     name: 'DefiGod',
     alt: 'DefiGod',
-    src: DefiGod,
+    src: '/png/defi_god.png',
     imgClasses: 'rounded-full h-16 lg:h-24',
   },
 
   {
     alt: 'Orthogonal',
-    src: Orthogonal,
+    src: '/png/orthogonal_trading.png',
     imgClasses: 'filter h-24 dark:invert dark:brightness-0',
   },
   {
     alt: 'LedgerPrime',
-    src: LedgerPrime,
+    src: '/png/ledger_prime.png',
     imgClasses: 'filter h-24 dark:invert dark:brightness-0',
   },
   {
     alt: 'OrcaTraders',
-    src: OrcaTraders,
+    src: '/png/orca_traders.png',
     imgClasses: 'filter h-24 dark:invert dark:brightness-0',
   },
   {
     alt: 'Pattern',
-    src: Pattern,
+    src: '/png/pattern.png',
     imgClasses: 'filter h-36 dark:invert dark:brightness-0',
   },
   {
     alt: 'SCC Investments',
-    src: SccInvestments,
+    src: '/svg/scc_investments.svg',
     imgClasses: 'filter h-40 dark:invert dark:brightness-0',
   },
   {
     alt: 'Debase',
-    src: Debase,
+    src: '/svg/debase.svg',
     imgClasses: 'h-14 lg:h-24 dark:invert dark:brightness-0 filter',
   },
   {
     alt: 'Hardwood Orcz',
-    src: HardwoodOrcz,
+    src: '/svg/debase.svg',
     imgClasses: 'h-14 lg:h-20 dark:invert dark:brightness-0 filter',
   },
   {
     alt: 'DCV',
-    src: Dcv,
+    src: '/png/dcv.png',
     imgClasses: 'h-18 lg:h-24 invert filter dark:filter-none',
   },
 ];

@@ -14,7 +14,6 @@ import LangMenu from './LangMenu';
 import Typography from 'components/UI/Typography';
 import Moon from 'assets/home/Moon';
 import Sun from 'assets/home/Sun';
-import Logo from 'assets/logo/logo.svg';
 
 import styles from './styles.module.scss';
 
@@ -93,7 +92,7 @@ export default function Navbar(props: NavbarProps) {
           className="flex items-center text-white flex-grow cursor-pointer hover:no-underline"
           href="/"
         >
-          <img src={Logo} alt="logo" className="w-9" />
+          <img src="/svg/logo.svg" alt="logo" className="w-9" />
           <span className="ml-5 text-xl font-extrabold text-black dark:text-white font-mono">
             DOPEX
           </span>

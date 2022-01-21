@@ -5,12 +5,12 @@ import { useTranslation } from 'react-i18next';
 
 import Navbar from 'components/Navbar';
 import Footer from 'components/Footer';
-import SSOVLiveBanner from 'components/Banners/SSOVLiveBanner';
 import Introduction from 'components/sale/Introduction';
 import Body from 'components/sale/Body';
 import Features from 'components/sale/Features';
 import RoadMap from 'components/sale/RoadMap';
 import FAQ from 'components/sale/FAQ';
+import PurchaseBanner from 'components/Banners/PurchaseBanner';
 
 export default function Sale() {
   const { t } = useTranslation('sale');
@@ -22,8 +22,8 @@ export default function Sale() {
         <title>{t('siteTitle')}</title>
       </Head>
       <Box className="overflow-x-hidden bg-white-dark dark:bg-black text-white">
-        <Navbar active="Sale" />
-        <SSOVLiveBanner />
+        <Navbar />
+        <PurchaseBanner />
         <Introduction />
         <Body />
         <Features />

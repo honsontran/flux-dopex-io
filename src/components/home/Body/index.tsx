@@ -1,7 +1,6 @@
 import Box from '@material-ui/core/Box';
 import { useTranslation } from 'react-i18next';
 
-import TextLink from 'components/UI/TextLink';
 import Typography from 'components/UI/Typography';
 import Section from 'components/UI/Section';
 import ConstantYield from 'assets/home/ConstantYield';
@@ -10,11 +9,6 @@ import MinimizeRisk from 'assets/home/MinimizeRisk';
 import FullyCollateralized from 'assets/home/FullyCollateralized';
 import PriceEfficiency from 'assets/home/PriceEfficiency';
 import Synths from 'assets/home/Synths';
-import Uniswap from 'assets/home/svg/uniswap.svg';
-import Chainlink from 'assets/home/svg/chainlink.svg';
-import Synthetics from 'assets/home/svg/synthetic.svg';
-import SolidityFinance from 'assets/home/svg/solidity_finance.svg';
-import solidified from 'assets/home/svg/solidified.svg';
 
 interface GridItemProps {
   Icon: any;
@@ -41,7 +35,6 @@ const GridItem = ({ Icon, heading, paragraph }: GridItemProps) => {
 
 const Body = () => {
   const { t } = useTranslation('home');
-  const { t: tc } = useTranslation('common');
 
   return (
     <Section>

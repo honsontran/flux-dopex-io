@@ -79,7 +79,7 @@ const GridItem = ({ src, alt, name, imgClasses, className }: GridItemProps) => {
     >
       <img src={src} alt={alt} className={cx(imgClasses, 'object-contain')} />
       {name ? (
-        <h1 className="ml-8 text-3xl text-black dark:text-white">{name}</h1>
+        <h3 className="ml-8 text-3xl text-black dark:text-white">{name}</h3>
       ) : null}
     </Box>
   );

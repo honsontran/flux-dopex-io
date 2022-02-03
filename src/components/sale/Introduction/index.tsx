@@ -15,6 +15,7 @@ const Introduction = () => {
       <Box className="flex flex-col z-10 lg:w-2/3">
         <Typography
           variant="h2"
+          component="h1"
           className="text-center mb-6 lg:text-left uppercase"
         >
           {t('introduction.title')}

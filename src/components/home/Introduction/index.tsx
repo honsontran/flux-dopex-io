@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { ReactNode } from 'react';
 import Button from '@material-ui/core/Button';
 import Box from '@material-ui/core/Box';
 import { useTranslation } from 'next-i18next';
@@ -8,7 +8,7 @@ import Typography from 'components/UI/Typography';
 
 import styles from './styles.module.scss';
 
-const GradientText: FC = ({ children }) => {
+const GradientText = ({ children }: { children: ReactNode }) => {
   return <span className={styles.textGradient}>{children}</span>;
 };
 

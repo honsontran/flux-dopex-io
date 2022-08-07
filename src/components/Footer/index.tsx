@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, ReactNode } from 'react';
 import Box from '@material-ui/core/Box';
 import { useTranslation } from 'react-i18next';
 import {
@@ -19,6 +19,7 @@ const FooterLink: FC<{
   name?: string;
   Icon?: FC<{ className: string }>;
   imgSrc?: string;
+  children?: ReactNode;
 }> = (props) => {
   const { name, children, Icon, imgSrc, href, target, rel } = props;
   const anchorProps = { href, target, rel };

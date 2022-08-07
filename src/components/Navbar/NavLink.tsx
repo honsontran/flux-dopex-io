@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, ReactNode } from 'react';
 import Link from 'next/link';
 import cx from 'classnames';
 
@@ -6,6 +6,7 @@ const NavLink: FC<{
   name?: string;
   to: string;
   active?: boolean;
+  children?: ReactNode;
 }> = ({ name, to, active, children }) => {
   const linkClassName = cx(
     'font-light text-lg hover:no-underline hover:text-primary dark:hover:no-underline dark:hover:text-white capitalize',

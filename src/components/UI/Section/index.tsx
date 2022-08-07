@@ -1,7 +1,10 @@
-import { FC } from 'react';
+import { FC, ReactNode } from 'react';
 import cx from 'classnames';
 
-const Section: FC<{ className?: string }> = ({ children, className }) => {
+const Section: FC<{ className?: string; children?: ReactNode }> = ({
+  children,
+  className,
+}) => {
   return (
     <section
       className={cx(
